@@ -2,7 +2,6 @@
 
 void setup() {
   // put your setup code here, to run once:
-  pinMode(0, OUTPUT);
   pinMode(1, OUTPUT);
   // this is generally not necessary but with some older systems it seems to prevent missing the first character after a delay:
   DigiKeyboard.update();
